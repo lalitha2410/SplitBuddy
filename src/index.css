@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body {
+  background: #EEF8F1; /* softer mint */
+  color: #0D2F1F;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  --hero-offset: 90px;
+}
+
+.hero-center {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
